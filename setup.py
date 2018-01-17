@@ -26,7 +26,7 @@ setup(
     name='python-dash',
     version=get_version(),
     description='A wrapper for the Dash CLI in Python',
-    long_description=open('README.rst').read(),
+    long_description='A wrapper for the Dash CLI in Python',
     author='James Bowen',
     url='https://github.com/JamesDBowen/python-dash',
     scripts=[],
