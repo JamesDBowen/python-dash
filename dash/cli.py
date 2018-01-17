@@ -8,7 +8,7 @@ class DashCLI():
   def __init__(self):
     print "Initializing Dash CLI"
   
-  def call(self, command, **args, ***kwargs):
+  def call(self, command):
     """
     Stub for now
     """
