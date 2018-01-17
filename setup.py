@@ -18,17 +18,17 @@ requires = [
 
 
 def get_version():
-    init = open(os.path.join(ROOT, 'python-dash', '__init__.py')).read()
+    init = open(os.path.join(ROOT, 'python_dash', '__init__.py')).read()
     return VERSION_RE.search(init).group(1)
 
 
 setup(
-    name='python-dash',
+    name='python_dash',
     version=get_version(),
     description='A wrapper for the Dash CLI in Python',
     long_description='A wrapper for the Dash CLI in Python',
     author='James Bowen',
-    url='https://github.com/JamesDBowen/python-dash',
+    url='https://github.com/JamesDBowen/python_dash',
     scripts=[],
     packages=find_packages(exclude=['tests*']),
     install_requires=requires,
