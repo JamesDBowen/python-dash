@@ -2,7 +2,7 @@
 A wrapper for passing commands to the Dash CLI
 """
 
-import os
+import subprocess
 
 class DashCLI():
   def __init__(self):
@@ -12,5 +12,8 @@ class DashCLI():
     """
     Stub for now
     """
+    command_string = "dash-cli "
+    command_string += command
+    subprocess.checkoutput(command_string)
     return
     
